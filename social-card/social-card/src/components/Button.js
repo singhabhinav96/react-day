@@ -3,9 +3,16 @@ import "../button.css";
 
 export default function Button() {
   return (
-    <div>
-      <button className="btn-main">En</button>
-      <button className="btn-main">Fr</button>
-    </div>
+    <>
+      <section className="header-main">
+        <div>
+          <button className="btn-main">En</button>
+          <button className="btn-main">Fr</button>
+        </div>
+        <div>
+          <button>X</button>
+        </div>
+      </section>
+    </>
   );
 }

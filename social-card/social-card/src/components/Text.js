@@ -1,14 +1,18 @@
 import React from "react";
+import "../text.css";
 
 export default function Text() {
   return (
-    <div>
+    <>
       <section>
-        <h1>Hello</h1>
-        <h1>World</h1>
+        <h1 className="heading">
+          Hello
+          <br />
+          World.
+        </h1>
       </section>
       <section>
-        <p>
+        <p className="para">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
           eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
           minim veniam, quis nostrud exercitation ullamco laboris nisi ut
@@ -17,6 +21,6 @@ export default function Text() {
           pariatur.
         </p>
       </section>
-    </div>
+    </>
   );
 }

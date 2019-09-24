@@ -1,3 +1,8 @@
+.header-main {
+    display: flex;
+    justify-content: space-between;
+}
+
 .btn-main {
     padding: 10px;
     border-radius: 50%;
