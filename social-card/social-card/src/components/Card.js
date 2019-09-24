@@ -10,7 +10,10 @@ export default function Card() {
     <>
       <div className="container">
         <div className="header">
-          <Header />
+          <Header
+            activeBtn={this.state.active}
+            changeActive={this.changeActive}
+          />
         </div>
         <div className="flex-container">
           <div>

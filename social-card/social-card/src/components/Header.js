@@ -4,7 +4,7 @@ import Button from "../components/Button";
 export default function Header() {
   return (
     <div>
-      <Button />
+      <Button activeBtn={this.state.active} changeActive={this.changeActive} />
     </div>
   );
 }

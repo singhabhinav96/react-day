@@ -9,12 +9,19 @@ export class App extends Component {
       active: "en"
     };
   }
+  changeActive = value => {
+    this.setState({ active: value });
+  };
+
   render() {
     return (
       <>
         <div className="App">
           <header className="App-header">
-            <Card />
+            <Card
+              activeBtn={this.state.active}
+              changeActive={this.changeActive}
+            />
           </header>
         </div>
       </>
