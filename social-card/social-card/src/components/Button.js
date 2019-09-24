@@ -8,6 +8,8 @@ export default function Button() {
         <div>
           <button className="btn-main">En</button>
           <button className="btn-main">Fr</button>
+          <button className="btn-main">Sp</button>
+          <button className="btn-main">Gr</button>
         </div>
         <div>
           <button>X</button>

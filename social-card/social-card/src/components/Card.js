@@ -12,7 +12,7 @@ export default function Card() {
         <div className="header">
           <Header />
         </div>
-        <div className="grid-container">
+        <div className="flex-container">
           <div>
             <Text />
           </div>
