@@ -5,12 +5,12 @@ export default class Image extends Component {
     return (
       <>
         <div>
-          <image
-            src="https://cdn.pixabay.com/photo/2014/11/30/14/11/kitty-551554__340.jpg"
+          <img
+            src="https://media1.giphy.com/media/ZvK1h27RRdRle/giphy.gif"
             alt="cat"
-            height="100px"
-            width="100px"
-          ></image>
+            height="300px"
+            width="300px"
+          ></img>
         </div>
       </>
     );
